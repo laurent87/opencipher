@@ -1,0 +1,39 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open Cipher]
+@="Encrypt using Open Cipher"
+
+[HKEY_CLASSES_ROOT\*\shell\Open Cipher\command]
+@="\"[[OPEN_CIPHER_EXE]]\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\.asc]
+@="AES encrypted file"
+
+[HKEY_CLASSES_ROOT\.asc\DefaultIcon]
+@="[[OPEN_CIPHER_ASC_ICO]],0"
+
+[HKEY_CLASSES_ROOT\.asc\shell]
+@="decrypt"
+
+[HKEY_CLASSES_ROOT\.asc\shell\decrypt]
+@="&Decrypt"
+
+[HKEY_CLASSES_ROOT\.asc\shell\decrypt\command]
+@="\"[[OPEN_CIPHER_EXE]]\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\.aes]
+@="AES encrypted file"
+
+[HKEY_CLASSES_ROOT\.aes\DefaultIcon]
+@="[[OPEN_CIPHER_AES_ICO]],0"
+
+[HKEY_CLASSES_ROOT\.aes\shell]
+@="decrypt"
+
+[HKEY_CLASSES_ROOT\.aes\shell\decrypt]
+@="&Decrypt"
+
+[HKEY_CLASSES_ROOT\.aes\shell\decrypt\command]
+@="\"[[OPEN_CIPHER_EXE]]\" \"%1\""
