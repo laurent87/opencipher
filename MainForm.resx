@@ -117,70 +117,130 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="NotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="IconContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>119, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="EncryptFileMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 300</value>
   </data>
-  <data name="EncryptFileMenu.Text" xml:space="preserve">
-    <value>Encrypt/decrypt file</value>
-  </data>
-  <data name="SeparatorMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 6</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="EncryptClipboardMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Alt+E</value>
-  </data>
-  <data name="EncryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="EncryptClipboardMenu.Text" xml:space="preserve">
-    <value>Encrypt clipboard</value>
-  </data>
-  <data name="DecryptClipboardMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Alt+D</value>
-  </data>
-  <data name="DecryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="DecryptClipboardMenu.Text" xml:space="preserve">
-    <value>Decrypt clipboard</value>
-  </data>
-  <data name="Separator2Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 6</value>
-  </data>
-  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="HelpMenu.Text" xml:space="preserve">
-    <value>Help file</value>
-  </data>
-  <data name="AboutMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="AboutMenu.Text" xml:space="preserve">
-    <value>About Open Cipher</value>
-  </data>
-  <data name="ExitMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="ExitMenu.Text" xml:space="preserve">
-    <value>Exit</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OkBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="IconContextMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 148</value>
   </data>
-  <data name="&gt;&gt;IconContextMenu.Name" xml:space="preserve">
-    <value>IconContextMenu</value>
+  <data name="ExitMenu.Text" xml:space="preserve">
+    <value>Exit</value>
   </data>
-  <data name="&gt;&gt;IconContextMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LockPct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="&gt;&gt;ExitMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DecryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="&gt;&gt;LockPct.Name" xml:space="preserve">
+    <value>LockPct</value>
+  </data>
+  <data name="EncryptClipboardMenu.Text" xml:space="preserve">
+    <value>Encrypt clipboard</value>
+  </data>
+  <data name="&gt;&gt;EncryptClipboardMenu.Name" xml:space="preserve">
+    <value>EncryptClipboardMenu</value>
+  </data>
+  <data name="&gt;&gt;Separator2Menu.Name" xml:space="preserve">
+    <value>Separator2Menu</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;InfoTxt.Name" xml:space="preserve">
+    <value>InfoTxt</value>
+  </data>
+  <data name="&gt;&gt;BackPct.Name" xml:space="preserve">
+    <value>BackPct</value>
+  </data>
+  <data name="OkBtn.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="NotifyIcon.Text" xml:space="preserve">
+    <value>Open Cipher</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="InfoTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;LockPct.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="InfoTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 200</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>About Open Cipher</value>
+  </data>
+  <data name="&gt;&gt;LockPct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackPct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SeparatorMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
+  <data name="LockPct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="EncryptFileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="&gt;&gt;InfoTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InfoTxt.Text" xml:space="preserve">
+    <value>Open Cipher http://www.opencipher.net/
+
+Laurent Dubois &lt;laurent@opencipher.net&gt;
+
+Open Cipher is free and open source software distributed under GPL v3 Licence, its usage provides no warranty.
+All encryption processes are done using OpenSSL, for more information please refer to Open Cipher website.</value>
+  </data>
+  <data name="EncryptClipboardMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+E</value>
+  </data>
+  <data name="LockPct.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="InfoTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparatorMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EncryptClipboardMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OkBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 230</value>
   </data>
   <data name="NotifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -277,135 +337,50 @@
         AADgAwAA8c8AAPHPAADxjwAA8A8AAPAPAAD4HwAA
 </value>
   </data>
-  <data name="NotifyIcon.Text" xml:space="preserve">
-    <value>Open Cipher</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="NotifyIcon.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="OkBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="OkBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 250</value>
-  </data>
-  <data name="OkBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="OkBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="OkBtn.Text" xml:space="preserve">
-    <value>&amp;OK</value>
-  </data>
   <data name="&gt;&gt;OkBtn.Name" xml:space="preserve">
     <value>OkBtn</value>
   </data>
-  <data name="&gt;&gt;OkBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BackPct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 251</value>
   </data>
-  <data name="&gt;&gt;OkBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;EncryptFileMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;OkBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="InfoTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="InfoTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 24</value>
-  </data>
-  <data name="InfoTxt.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="InfoTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 220</value>
-  </data>
-  <data name="InfoTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="InfoTxt.Text" xml:space="preserve">
-    <value>Open Cipher
-http://www.opencipher.net/
-
-2013 - Laurent Dubois
-
-Open Cipher is free and open source software distributed under GPL v3 Licence, it's usage provides no warranty.
-All encryption processes are done using OpenSSL, for more information please refer to Open Cipher website.</value>
-  </data>
-  <data name="&gt;&gt;InfoTxt.Name" xml:space="preserve">
-    <value>InfoTxt</value>
-  </data>
-  <data name="&gt;&gt;InfoTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InfoTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;InfoTxt.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LockPct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="LockPct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 24</value>
-  </data>
-  <data name="LockPct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="LockPct.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;LockPct.Name" xml:space="preserve">
-    <value>LockPct</value>
-  </data>
-  <data name="&gt;&gt;LockPct.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Separator2Menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LockPct.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;LockPct.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="BackPct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="BackPct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="&gt;&gt;AboutMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BackPct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 271</value>
+  <data name="HelpMenu.Text" xml:space="preserve">
+    <value>Help file</value>
   </data>
-  <data name="BackPct.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="EncryptFileMenu.Text" xml:space="preserve">
+    <value>Encrypt/decrypt file</value>
   </data>
-  <data name="&gt;&gt;BackPct.Name" xml:space="preserve">
-    <value>BackPct</value>
+  <data name="&gt;&gt;DecryptClipboardMenu.Name" xml:space="preserve">
+    <value>DecryptClipboardMenu</value>
   </data>
-  <data name="&gt;&gt;BackPct.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BackPct.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="OkBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="&gt;&gt;BackPct.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>54</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="DecryptClipboardMenu.Text" xml:space="preserve">
+    <value>Decrypt clipboard</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>344, 295</value>
+  <data name="InfoTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NotifyIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -502,70 +477,94 @@ All encryption processes are done using OpenSSL, for more information please ref
         AADgAwAA8c8AAPHPAADxjwAA8A8AAPAPAAD4HwAA
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>350, 320</value>
+  <data name="LockPct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 24</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Open Cipher</value>
-  </data>
-  <data name="&gt;&gt;NotifyIcon.Name" xml:space="preserve">
-    <value>NotifyIcon</value>
-  </data>
-  <data name="&gt;&gt;NotifyIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EncryptFileMenu.Name" xml:space="preserve">
-    <value>EncryptFileMenu</value>
-  </data>
-  <data name="&gt;&gt;EncryptFileMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SeparatorMenu.Name" xml:space="preserve">
-    <value>SeparatorMenu</value>
-  </data>
-  <data name="&gt;&gt;SeparatorMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EncryptClipboardMenu.Name" xml:space="preserve">
-    <value>EncryptClipboardMenu</value>
-  </data>
-  <data name="&gt;&gt;EncryptClipboardMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DecryptClipboardMenu.Name" xml:space="preserve">
-    <value>DecryptClipboardMenu</value>
-  </data>
-  <data name="&gt;&gt;DecryptClipboardMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Separator2Menu.Name" xml:space="preserve">
-    <value>Separator2Menu</value>
-  </data>
-  <data name="&gt;&gt;Separator2Menu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BackPct.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;HelpMenu.Name" xml:space="preserve">
     <value>HelpMenu</value>
   </data>
-  <data name="&gt;&gt;HelpMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;SeparatorMenu.Name" xml:space="preserve">
+    <value>SeparatorMenu</value>
   </data>
-  <data name="&gt;&gt;AboutMenu.Name" xml:space="preserve">
-    <value>AboutMenu</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Open Cipher</value>
   </data>
-  <data name="&gt;&gt;AboutMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;InfoTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="InfoTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Name" xml:space="preserve">
+    <value>NotifyIcon</value>
   </data>
   <data name="&gt;&gt;ExitMenu.Name" xml:space="preserve">
     <value>ExitMenu</value>
   </data>
-  <data name="&gt;&gt;ExitMenu.Type" xml:space="preserve">
+  <data name="&gt;&gt;AboutMenu.Name" xml:space="preserve">
+    <value>AboutMenu</value>
+  </data>
+  <data name="ExitMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="&gt;&gt;DecryptClipboardMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
+  <data name="DecryptClipboardMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+D</value>
+  </data>
+  <data name="&gt;&gt;EncryptFileMenu.Name" xml:space="preserve">
+    <value>EncryptFileMenu</value>
+  </data>
+  <data name="&gt;&gt;InfoTxt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;IconContextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BackPct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="OkBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>294, 275</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;IconContextMenu.Name" xml:space="preserve">
+    <value>IconContextMenu</value>
+  </data>
+  <data name="Separator2Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
+  <data name="AboutMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="EncryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="BackPct.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <metadata name="IconContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>54</value>
+  </metadata>
+  <metadata name="NotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

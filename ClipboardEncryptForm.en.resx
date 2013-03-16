@@ -121,6 +121,9 @@
   <data name="OkBtn.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="OkBtn.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
   <data name="KeyTxt.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>

@@ -51,13 +51,14 @@
             // 
             // NotifyIcon
             // 
-            this.NotifyIcon.ContextMenuStrip = this.IconContextMenu;
             resources.ApplyResources(this.NotifyIcon, "NotifyIcon");
+            this.NotifyIcon.ContextMenuStrip = this.IconContextMenu;
             this.NotifyIcon.DoubleClick += new System.EventHandler(this.NotifyIconDoubleClick);
             this.NotifyIcon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.NotifyIconMouseUp);
             // 
             // IconContextMenu
             // 
+            resources.ApplyResources(this.IconContextMenu, "IconContextMenu");
             this.IconContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.EncryptFileMenu,
             this.SeparatorMenu,
@@ -68,55 +69,54 @@
             this.AboutMenu,
             this.ExitMenu});
             this.IconContextMenu.Name = "contextMenuStrip1";
-            resources.ApplyResources(this.IconContextMenu, "IconContextMenu");
             // 
             // EncryptFileMenu
             // 
+            resources.ApplyResources(this.EncryptFileMenu, "EncryptFileMenu");
             this.EncryptFileMenu.Image = global::OpenCipher.Properties.Resources.FileLock;
             this.EncryptFileMenu.Name = "EncryptFileMenu";
-            resources.ApplyResources(this.EncryptFileMenu, "EncryptFileMenu");
             this.EncryptFileMenu.Click += new System.EventHandler(this.EncryptFileMenuClick);
             // 
             // SeparatorMenu
             // 
-            this.SeparatorMenu.Name = "SeparatorMenu";
             resources.ApplyResources(this.SeparatorMenu, "SeparatorMenu");
+            this.SeparatorMenu.Name = "SeparatorMenu";
             // 
             // EncryptClipboardMenu
             // 
+            resources.ApplyResources(this.EncryptClipboardMenu, "EncryptClipboardMenu");
             this.EncryptClipboardMenu.Image = global::OpenCipher.Properties.Resources.ClipboardLock;
             this.EncryptClipboardMenu.Name = "EncryptClipboardMenu";
-            resources.ApplyResources(this.EncryptClipboardMenu, "EncryptClipboardMenu");
             this.EncryptClipboardMenu.Click += new System.EventHandler(this.EncryptClipboard);
             // 
             // DecryptClipboardMenu
             // 
+            resources.ApplyResources(this.DecryptClipboardMenu, "DecryptClipboardMenu");
             this.DecryptClipboardMenu.Image = global::OpenCipher.Properties.Resources.Clipboard;
             this.DecryptClipboardMenu.Name = "DecryptClipboardMenu";
-            resources.ApplyResources(this.DecryptClipboardMenu, "DecryptClipboardMenu");
             this.DecryptClipboardMenu.Click += new System.EventHandler(this.DecryptClipboard);
             // 
             // Separator2Menu
             // 
-            this.Separator2Menu.Name = "Separator2Menu";
             resources.ApplyResources(this.Separator2Menu, "Separator2Menu");
+            this.Separator2Menu.Name = "Separator2Menu";
             // 
             // HelpMenu
             // 
-            this.HelpMenu.Name = "HelpMenu";
             resources.ApplyResources(this.HelpMenu, "HelpMenu");
+            this.HelpMenu.Name = "HelpMenu";
             this.HelpMenu.Click += new System.EventHandler(this.HelpMenuClick);
             // 
             // AboutMenu
             // 
-            this.AboutMenu.Name = "AboutMenu";
             resources.ApplyResources(this.AboutMenu, "AboutMenu");
+            this.AboutMenu.Name = "AboutMenu";
             this.AboutMenu.Click += new System.EventHandler(this.SettingsMenuClick);
             // 
             // ExitMenu
             // 
-            this.ExitMenu.Name = "ExitMenu";
             resources.ApplyResources(this.ExitMenu, "ExitMenu");
+            this.ExitMenu.Name = "ExitMenu";
             this.ExitMenu.Click += new System.EventHandler(this.ExitMenuClick);
             // 
             // OkBtn

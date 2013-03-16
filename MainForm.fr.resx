@@ -118,48 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="EncryptFileMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="EncryptFileMenu.Text" xml:space="preserve">
-    <value>Chiffrer/déchiffrer fichier</value>
-  </data>
-  <data name="SeparatorMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 6</value>
-  </data>
-  <data name="EncryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="EncryptClipboardMenu.Text" xml:space="preserve">
-    <value>Chiffrer presse-papier</value>
-  </data>
-  <data name="DecryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="DecryptClipboardMenu.Text" xml:space="preserve">
-    <value>Déchiffrer presse-papier</value>
-  </data>
-  <data name="Separator2Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 6</value>
-  </data>
-  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="HelpMenu.Text" xml:space="preserve">
-    <value>Document d'aide</value>
-  </data>
-  <data name="AboutMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="AboutMenu.Text" xml:space="preserve">
-    <value>À propos d'Open Cipher</value>
-  </data>
-  <data name="ExitMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 30</value>
-  </data>
-  <data name="ExitMenu.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
   <data name="IconContextMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>260, 196</value>
   </data>
@@ -258,16 +216,56 @@
         AADgAwAA8c8AAPHPAADxjwAA8A8AAPAPAAD4HwAA
 </value>
   </data>
+  <data name="EncryptFileMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="EncryptFileMenu.Text" xml:space="preserve">
+    <value>Chiffrer/déchiffrer fichier</value>
+  </data>
+  <data name="SeparatorMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="EncryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="EncryptClipboardMenu.Text" xml:space="preserve">
+    <value>Chiffrer presse-papier</value>
+  </data>
+  <data name="DecryptClipboardMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="DecryptClipboardMenu.Text" xml:space="preserve">
+    <value>Déchiffrer presse-papier</value>
+  </data>
+  <data name="Separator2Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="HelpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="HelpMenu.Text" xml:space="preserve">
+    <value>Document d'aide</value>
+  </data>
+  <data name="AboutMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>À propos d'Open Cipher</value>
+  </data>
+  <data name="ExitMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 30</value>
+  </data>
+  <data name="ExitMenu.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
   <data name="InfoTxt.Text" xml:space="preserve">
-    <value>Open Cipher
+    <value>Open Cipher http://www.opencipher.net/
 
-2013 - Laurent Dubois
+Laurent Dubois &lt;laurent@opencipher.net&gt;
 
 http://www.opencipher.net/
-Logiciel libre et ouvert
-Distribué sous la licence GPL v3 http://www.gnu.org/licenses/gpl.html
-
-Tous les processus de chiffrement sont fait par OpenSSL, pour plus d'information, s'il-vous-plaît visitez http://www.openssl.org/</value>
+Open Cipher est un logiciel libre et ouvert distribué sous la licence GPL v3, son usage n'offre aucune garantie.
+Tous les processus de chiffrement sont effectués par OpenSSL, pour plus d'information renseignez-vous sur site internet d'Open Cipher.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -117,179 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LockPct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LockPct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 23</value>
-  </data>
   <data name="LockPct.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 48</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LockPct.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;LockPct.Name" xml:space="preserve">
-    <value>LockPct</value>
-  </data>
-  <data name="&gt;&gt;LockPct.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LockPct.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LockPct.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="InfoLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="InfoLbl.AutoSize" type="System.Boolean, mscorlib">
+  <data name="EncryptRad.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="InfoLbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 10</value>
   </data>
-  <data name="InfoLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
-  </data>
-  <data name="InfoLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="InfoLbl.Text" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="&gt;&gt;InfoLbl.Name" xml:space="preserve">
-    <value>InfoLbl</value>
+  <data name="&gt;&gt;EncryptRad.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;InfoLbl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;InfoLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;InfoLbl.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="OkBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="OkBtn.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="OkBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 58</value>
-  </data>
-  <data name="OkBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="OkBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="OkBtn.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;OkBtn.Name" xml:space="preserve">
-    <value>OkBtn</value>
-  </data>
-  <data name="&gt;&gt;OkBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;OkBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;KeyTxt.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;OkBtn.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="KeyTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="KeyTxt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 31</value>
-  </data>
-  <data name="KeyTxt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 20</value>
-  </data>
-  <data name="KeyTxt.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;KeyTxt.Name" xml:space="preserve">
-    <value>KeyTxt</value>
-  </data>
-  <data name="&gt;&gt;KeyTxt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;KeyTxt.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;KeyTxt.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="EncryptRad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="EncryptRad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 61</value>
-  </data>
-  <data name="EncryptRad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="EncryptRad.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="EncryptRad.Text" xml:space="preserve">
-    <value>Encrypt</value>
-  </data>
-  <data name="&gt;&gt;EncryptRad.Name" xml:space="preserve">
-    <value>EncryptRad</value>
-  </data>
-  <data name="&gt;&gt;EncryptRad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EncryptRad.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EncryptRad.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="DecryptRad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="DecryptRad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 61</value>
-  </data>
-  <data name="DecryptRad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
-  </data>
-  <data name="DecryptRad.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="DecryptRad.Text" xml:space="preserve">
-    <value>Decrypt</value>
-  </data>
-  <data name="&gt;&gt;DecryptRad.Name" xml:space="preserve">
-    <value>DecryptRad</value>
-  </data>
-  <data name="&gt;&gt;DecryptRad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DecryptRad.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DecryptRad.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>354, 95</value>
+  <data name="OkBtn.Text" xml:space="preserve">
+    <value>&amp;OK</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -386,19 +241,164 @@
         AADgAwAA8c8AAPHPAADxjwAA8A8AAPAPAAD4HwAA
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>360, 120</value>
+  <data name="&gt;&gt;EncryptRad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;DecryptRad.Name" xml:space="preserve">
+    <value>DecryptRad</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Open Cipher</value>
+  <data name="&gt;&gt;InfoLbl.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SelectionEncryptForm</value>
+  <data name="DecryptRad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LockPct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;KeyTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SelectionEncryptForm</value>
+  </data>
+  <data name="DecryptRad.Text" xml:space="preserve">
+    <value>Decrypt</value>
+  </data>
+  <data name="&gt;&gt;LockPct.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LockPct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="OkBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="InfoLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="InfoLbl.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="KeyTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 31</value>
+  </data>
+  <data name="DecryptRad.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>354, 95</value>
+  </data>
+  <data name="&gt;&gt;DecryptRad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="InfoLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="LockPct.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="InfoLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="KeyTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InfoLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;KeyTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EncryptRad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LockPct.Name" xml:space="preserve">
+    <value>LockPct</value>
+  </data>
+  <data name="EncryptRad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 61</value>
+  </data>
+  <data name="&gt;&gt;KeyTxt.Name" xml:space="preserve">
+    <value>KeyTxt</value>
+  </data>
+  <data name="OkBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>360, 120</value>
+  </data>
+  <data name="EncryptRad.Text" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="KeyTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="OkBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="EncryptRad.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="InfoLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;DecryptRad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EncryptRad.Name" xml:space="preserve">
+    <value>EncryptRad</value>
+  </data>
+  <data name="OkBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 58</value>
+  </data>
+  <data name="&gt;&gt;LockPct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EncryptRad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="&gt;&gt;DecryptRad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="KeyTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.Name" xml:space="preserve">
+    <value>OkBtn</value>
+  </data>
+  <data name="&gt;&gt;OkBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OkBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;InfoLbl.Name" xml:space="preserve">
+    <value>InfoLbl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Open Cipher</value>
+  </data>
+  <data name="DecryptRad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 61</value>
+  </data>
+  <data name="DecryptRad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LockPct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

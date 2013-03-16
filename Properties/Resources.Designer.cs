@@ -376,13 +376,6 @@ namespace OpenCipher.Properties {
             }
         }
         
-        internal static byte[] OpenSSL {
-            get {
-                object obj = ResourceManager.GetObject("OpenSSL", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
         /// <summary>
         ///   Looks up a localized string similar to openssl.exe.
         /// </summary>

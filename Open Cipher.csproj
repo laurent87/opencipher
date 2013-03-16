@@ -193,7 +193,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Lock.ico" />
-    <Content Include="Resources\openssl.exe" />
+    <Content Include="Resources\OpenSSL\libeay32.dll" />
+    <Content Include="Resources\OpenSSL\openssl.exe" />
+    <Content Include="Resources\OpenSSL\ssleay32.dll" />
     <None Include="Resources\Icons\asc.ico" />
     <None Include="Resources\Icons\aes.ico" />
     <None Include="Resources\Clipboard.png" />

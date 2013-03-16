@@ -8,6 +8,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System.Text.RegularExpressions;
+
 namespace OpenCipher
 {
     using System;
@@ -153,6 +155,13 @@ namespace OpenCipher
             // get output
             String output = p.StandardOutput.ReadToEnd();
             String errorOutputLine = p.StandardError.ReadLine();
+
+            // skip OpenSSL warning
+            if (errorOutputLine != null && Regex.Match(errorOutputLine, @"^WARNING", RegexOptions.IgnoreCase).Success)
+            {
+                // read next line
+                errorOutputLine = p.StandardError.ReadLine();
+            }
 
             // show result message
             if (!String.IsNullOrWhiteSpace(errorOutputLine))

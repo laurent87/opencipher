@@ -42,7 +42,7 @@ namespace OpenCipher
             this.InitializeComponent();
 
             this.action = CipherAction.Encrypt;
-            
+
             this.UpdateForm();
         }
 
@@ -145,16 +145,8 @@ namespace OpenCipher
 
             p.StartInfo.Arguments = argumentsBuilder.ToString();
 
-            try
-            {
-                // execute process
-                p.Start();
-            }
-            catch
-            {
-                MessageBox.Show(@"Can't execute the encryption process.", Resources.ErrorTitle, MessageBoxButtons.OK,
-                                MessageBoxIcon.Error);
-            }
+            // execute process
+            p.Start();
 
             // send data to the process
             p.StandardInput.Write(this.data);
@@ -163,6 +155,13 @@ namespace OpenCipher
             // get output
             String processedData = p.StandardOutput.ReadToEnd();
             String errorOutputLine = p.StandardError.ReadLine();
+
+            // skip OpenSSL warning
+            if (errorOutputLine != null && Regex.Match(errorOutputLine, @"^WARNING", RegexOptions.IgnoreCase).Success)
+            {
+                // read next line
+                errorOutputLine = p.StandardError.ReadLine();
+            }
 
             // show result message
             if (!String.IsNullOrWhiteSpace(errorOutputLine))
