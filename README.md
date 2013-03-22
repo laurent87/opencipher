@@ -1,4 +1,5 @@
-opencipher
-==========
+Open Cipher
+===========
 
-Simple encryption tool
+Windows encryption tool;
+Open Cipher is using OpenSSL, for more information, please check http://opencipher.net
